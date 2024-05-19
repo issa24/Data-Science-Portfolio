@@ -89,5 +89,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 If you have any questions or suggestions, feel free to contact me.
 
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/your-profile)
-- GitHub: [Your GitHub](https://github.com/your-username)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/your-profile)
+
