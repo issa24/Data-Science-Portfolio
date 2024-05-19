@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Data-Science-Portfolio/static/css/main.5ee9ebeb.css",
-    "main.js": "/Data-Science-Portfolio/static/js/main.511c6e4b.js",
-    "static/js/453.e154350a.chunk.js": "/Data-Science-Portfolio/static/js/453.e154350a.chunk.js",
-    "index.html": "/Data-Science-Portfolio/index.html",
-    "main.5ee9ebeb.css.map": "/Data-Science-Portfolio/static/css/main.5ee9ebeb.css.map",
-    "main.511c6e4b.js.map": "/Data-Science-Portfolio/static/js/main.511c6e4b.js.map",
-    "453.e154350a.chunk.js.map": "/Data-Science-Portfolio/static/js/453.e154350a.chunk.js.map"
+    "main.css": "/static/css/main.5ee9ebeb.css",
+    "main.js": "/static/js/main.97a9966f.js",
+    "static/js/453.e154350a.chunk.js": "/static/js/453.e154350a.chunk.js",
+    "index.html": "/index.html",
+    "main.5ee9ebeb.css.map": "/static/css/main.5ee9ebeb.css.map",
+    "main.97a9966f.js.map": "/static/js/main.97a9966f.js.map",
+    "453.e154350a.chunk.js.map": "/static/js/453.e154350a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ee9ebeb.css",
-    "static/js/main.511c6e4b.js"
+    "static/js/main.97a9966f.js"
   ]
 }
