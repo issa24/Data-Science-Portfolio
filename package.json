@@ -1,7 +1,7 @@
 {
   "name": "data-science-portfolio",
   "version": "0.1.0",
-  "homepage": "https://issa24.github.io/Data-Science-Portfolio",
+  "homepage": "https://issa24.github.io",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
