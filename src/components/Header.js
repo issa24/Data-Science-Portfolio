@@ -61,10 +61,10 @@ const Header = () => (
       <NavLink to="/resume">Resume</NavLink>
     </NavLinks>
     <NavLinks>
-      <IconLink href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+      <IconLink href="https://www.linkedin.com/in/issa-abdulkadir-9658b543/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
       </IconLink>
-      <IconLink href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+      <IconLink href="https://github.com/issa24" target="_blank" rel="noopener noreferrer">
         <FaGithub />
       </IconLink>
     </NavLinks>

@@ -2,12 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+const colors = ['#FFCDD2', '#C8E6C9', '#BBDEFB', '#FFE0B2', '#D1C4E9', '#B2EBF2']; // Add more colors as needed
+
 const Card = styled.div`
   border: 1px solid #ddd;
   padding: 1rem;
   margin: 1rem;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: ${props => props.bgColor};
 `;
 
 const Title = styled.h2`
@@ -26,20 +28,29 @@ const Technologies = styled.p`
 `;
 
 const Link = styled.a`
-  color: #61dafb;
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
   text-decoration: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 
   &:hover {
-    text-decoration: underline;
+    background-color: #21a1f1;
   }
 `;
 
-const ProjectCard = ({ project }) => (
-  <Card>
+const ProjectCard = ({ project, index }) => (
+  <Card bgColor={colors[index % colors.length]}>
     <Title>{project.title}</Title>
     <Description>{project.description}</Description>
     <Technologies>Technologies: {project.technologies.join(', ')}</Technologies>
-    <Link href={project.link}>View Project</Link>
+    <Link href={project.link} target="_blank" rel="noopener noreferrer">View Project</Link>
   </Card>
 );
 
@@ -50,6 +61,7 @@ ProjectCard.propTypes = {
     technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
     link: PropTypes.string.isRequired,
   }).isRequired,
+  index: PropTypes.number.isRequired,
 };
 
 export default ProjectCard;
