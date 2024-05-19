@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 
 const AboutContainer = styled.div`
   padding: 2rem;
@@ -13,6 +14,10 @@ const Title = styled.h1`
   color: #333;
 `;
 
+const Section = styled.div`
+  margin-bottom: 1.5rem;
+`;
+
 const Paragraph = styled.p`
   font-size: 1.2rem;
   color: #666;
@@ -21,19 +26,58 @@ const Paragraph = styled.p`
 
 const About = () => (
   <AboutContainer>
+    <Helmet>
+      <title>About - Data Science Portfolio</title>
+    </Helmet>
     <Title>About Me</Title>
-    <Paragraph>
-      Hello! I am a dedicated and passionate Data Analyst/Scientist with over three years of experience in the industry. Currently, I am working at Boeing, where I specialize in analyzing complex datasets to drive strategic decision-making and improve operational efficiency.
-    </Paragraph>
-    <Paragraph>
-      I have a strong background in statistical analysis, machine learning, and data visualization. My expertise includes Python, R, SQL, and various data visualization tools like Tableau and Power BI. I have successfully led multiple projects that have resulted in significant cost savings and performance improvements.
-    </Paragraph>
-    <Paragraph>
-      My journey in data science began with a Bachelor's degree in Computer Science, followed by a Master's degree in Data Science. I am continuously learning and staying up-to-date with the latest trends and technologies in the field.
-    </Paragraph>
-    <Paragraph>
-      At Boeing, I am part of a dynamic team where we tackle challenging problems and innovate solutions that contribute to the company's success. I am passionate about leveraging data to make informed decisions and am always eager to take on new challenges that push the boundaries of what is possible with data.
-    </Paragraph>
+    <Section>
+      <Paragraph>
+        <strong>Professional Data Analyst</strong>
+      </Paragraph>
+      <Paragraph>
+        Welcome to my professional portfolio! I am Issa Abdulkadir, a dynamic and seasoned Data Analyst with a Master of Science in Data Analytics from Western Governors University. My expertise lies in transforming complex data sets into actionable insights and compelling data visualizations.
+      </Paragraph>
+    </Section>
+    <Section>
+      <Paragraph>
+        <strong>Education & Skills</strong>
+      </Paragraph>
+      <Paragraph>
+        I hold a Bachelor of Science in Data Management/Data Analytics and have honed my skills in various data analysis and visualization tools including SQL, Python, R, Tableau, and more. My technical proficiency extends to ETL processes, API development, data warehousing, and machine learning.
+      </Paragraph>
+    </Section>
+    <Section>
+      <Paragraph>
+        <strong>Certifications & Expertise</strong>
+      </Paragraph>
+      <Paragraph>
+        My commitment to continuous learning is evidenced by my certifications, including CompTIA Project+, ITIL Foundation, and advanced data modeling. I excel in data interpretation, statistical analysis, and data storytelling, which are critical in today's data-driven world.
+      </Paragraph>
+    </Section>
+    <Section>
+      <Paragraph>
+        <strong>Professional Experience</strong>
+      </Paragraph>
+      <Paragraph>
+        With experience at Boeing in Renton, I have led projects that significantly improved decision-making and operational efficiency. My role involved designing Tableau dashboards, automating data processes, and enhancing product quality through data analytics.
+      </Paragraph>
+    </Section>
+    <Section>
+      <Paragraph>
+        <strong>Passion for Problem-Solving</strong>
+      </Paragraph>
+      <Paragraph>
+        I am passionate about solving complex problems and have a proven track record of driving strategic business outcomes. Whether working as a team lead or developing web solutions as a freelancer, I bring a unique blend of technical skills and creative thinking to every challenge.
+      </Paragraph>
+    </Section>
+    <Section>
+      <Paragraph>
+        <strong>Connect with Me</strong>
+      </Paragraph>
+      <Paragraph>
+        I am based in Seattle, Washington, and am always eager to collaborate on innovative data projects. Feel free to reach out to me at <a href="mailto:issa.abdulkadir@yahoo.com">issa.abdulkadir@yahoo.com</a> or connect with me on professional networks.
+      </Paragraph>
+    </Section>
   </AboutContainer>
 );
 
