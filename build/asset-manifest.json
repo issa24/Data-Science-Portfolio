@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Data-Science-Portfolio/static/css/main.5ee9ebeb.css",
-    "main.js": "/Data-Science-Portfolio/static/js/main.e4ea20c9.js",
+    "main.js": "/Data-Science-Portfolio/static/js/main.9dd9547e.js",
     "static/js/453.e154350a.chunk.js": "/Data-Science-Portfolio/static/js/453.e154350a.chunk.js",
     "index.html": "/Data-Science-Portfolio/index.html",
     "main.5ee9ebeb.css.map": "/Data-Science-Portfolio/static/css/main.5ee9ebeb.css.map",
-    "main.e4ea20c9.js.map": "/Data-Science-Portfolio/static/js/main.e4ea20c9.js.map",
+    "main.9dd9547e.js.map": "/Data-Science-Portfolio/static/js/main.9dd9547e.js.map",
     "453.e154350a.chunk.js.map": "/Data-Science-Portfolio/static/js/453.e154350a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ee9ebeb.css",
-    "static/js/main.e4ea20c9.js"
+    "static/js/main.9dd9547e.js"
   ]
 }
