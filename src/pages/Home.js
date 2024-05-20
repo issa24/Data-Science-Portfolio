@@ -72,6 +72,13 @@ const Skill = styled.div`
 
 const CallToAction = styled.div`
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  a {
+    margin: 0.5rem;
+  }
 `;
 
 const Button = styled.a`
@@ -83,7 +90,7 @@ const Button = styled.a`
   border: none;
   border-radius: 4px;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 
