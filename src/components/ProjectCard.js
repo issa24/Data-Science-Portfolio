@@ -50,7 +50,9 @@ const ProjectCard = ({ project, index }) => (
     <Title>{project.title}</Title>
     <Description>{project.description}</Description>
     <Technologies>Technologies: {project.technologies.join(', ')}</Technologies>
-    <Link href={project.link} target="_blank" rel="noopener noreferrer">View Project</Link>
+    <Link href={project.link} target={project.link.startsWith('#') ? '_self' : '_blank'} rel={project.link.startsWith('#') ? '' : 'noopener noreferrer'}>
+      View Project
+    </Link>
   </Card>
 );
 
