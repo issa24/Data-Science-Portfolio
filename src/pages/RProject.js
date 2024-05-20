@@ -21,7 +21,7 @@ const HTMLProject = () => (
       <title>Exploratory Data Analysis with R - Data Science Portfolio</title>
     </Helmet>
     <h1>Exploratory Data Analysis with R</h1>
-    <iframe src="/ExpodatawithR.html" title="Exploratory Data Analysis with R"></iframe>
+    <iframe src={`${process.env.PUBLIC_URL}/ExpodatawithR.html`} title="Exploratory Data Analysis with R"></iframe>
   </Container>
 );
 

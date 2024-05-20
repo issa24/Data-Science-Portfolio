@@ -21,7 +21,7 @@ const RegressionProject = () => (
       <title>Predictive Analysis Using Regression - Data Science Portfolio</title>
     </Helmet>
     <h1>Predictive Analysis Using Regression</h1>
-    <iframe src="/Predictive_Analysis_Using_Regression.html" title="Predictive Analysis Using Regression"></iframe>
+    <iframe src={`${process.env.PUBLIC_URL}/Predictive_Analysis_Using_Regression.html`} title="Predictive Analysis Using Regression"></iframe>
   </Container>
 );
 

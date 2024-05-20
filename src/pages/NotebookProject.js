@@ -21,7 +21,7 @@ const NotebookProject = () => (
       <title>Leceister City PL Trophy Season - Data Science Portfolio</title>
     </Helmet>
     <h1>Leceister City PL Trophy Season</h1>
-    <iframe src="/LeceisterCityPLTrophySeason.html" title="Leceister City PL Trophy Season"></iframe>
+    <iframe src={`${process.env.PUBLIC_URL}/LeceisterCityPLTrophySeason.html`} title="Leceister City PL Trophy Season"></iframe>
   </Container>
 );
 
