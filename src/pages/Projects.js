@@ -51,19 +51,19 @@ const Projects = () => {
       title: 'Exponential Data Analysis with R',
       description: 'An analysis using R for exponential data.',
       technologies: ['R', 'HTML'],
-      link: '/html-project'
+      link: '/#/html-project'
     },
     {
       title: 'Leceister City PL Trophy Season',
       description: 'An in-depth analysis of Leceister City\'s Premier League trophy-winning season.',
       technologies: ['Python', 'Jupyter Notebook'],
-      link: '/notebook-project'
+      link: '/#/notebook-project'
     },
     {
       title: 'Predictive Analysis Using Regression',
       description: 'Predicting customer churn for a telecom company using regression analysis.',
       technologies: ['Python', 'Jupyter Notebook'],
-      link: '/regression-project'
+      link: '/#/regression-project'
     }
   ];
 

@@ -10,8 +10,8 @@ const Resume = () => (
     <p className="description">
       You can view or download my resume using the links below.
     </p>
-    <a href="/resume.pdf" target="_blank" className="button">View Resume</a>
-    <a href="/resume.pdf" download className="button">Download Resume</a>
+    <a href="/pdf/resume.pdf" target="_blank" className="button">View Resume</a>
+    <a href="/pdf/resume.pdf" download className="button">Download Resume</a>
   </div>
 );
 

@@ -156,8 +156,10 @@ const Home = () => {
           </Skill>
         </Skills>
         <CallToAction>
-          <Button href="/resume.pdf" target="_blank">View Resume</Button>
-          <Button href="/projects">View Projects</Button>
+          <Button href={`${process.env.PUBLIC_URL}/pdf/resume.pdf`} target="_blank" rel="noopener noreferrer">
+            View Resume
+          </Button>
+          <Button href="#/projects">View Projects</Button>
         </CallToAction>
       </HeroSection>
       <Footer>
