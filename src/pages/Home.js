@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import Lottie from 'react-lottie';
 import animationData from '../animations/data-science-animation.json';
-import { FaPython, FaRProject, FaChartBar, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaPython, FaRProject, FaChartBar, FaGithub, FaLinkedin, FaJs, FaDatabase } from 'react-icons/fa';
+import { SiPandas, SiJupyter, SiMongodb, SiMysql } from 'react-icons/si';
 
 const HomeContainer = styled.div`
   display: flex;
@@ -21,7 +22,7 @@ const HeroSection = styled.div`
   max-width: 1200px;
   margin: auto;
   padding: 2rem;
-  background: adb5bd ;
+  background: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 `;
@@ -46,7 +47,7 @@ const Description = styled.p`
 
 const AnimationWrapper = styled.div`
   width: 100%;
-  max-width: 600px;
+  max-width: 800px; /* Increase the max-width to make it wider */
   margin: 2rem auto;
 
   @media (max-width: 768px) {
@@ -161,6 +162,26 @@ const Home = () => {
             <FaChartBar />
             <span>Tableau</span>
           </Skill>
+          <Skill>
+            <FaJs />
+            <span>JavaScript</span>
+          </Skill>
+          <Skill>
+            <SiPandas />
+            <span>Pandas</span>
+          </Skill>
+          <Skill>
+            <SiJupyter />
+            <span>Matplotlib</span>
+          </Skill>
+          <Skill>
+            <FaDatabase />
+            <span>SQL</span>
+          </Skill>
+          <Skill>
+            <SiMongodb />
+            <span>MongoDB</span>
+          </Skill>
         </Skills>
         <CallToAction>
           <Button href={`${process.env.PUBLIC_URL}/pdf/resume.pdf`} target="_blank" rel="noopener noreferrer">
@@ -172,10 +193,10 @@ const Home = () => {
       <Footer>
         <p>Connect with me:</p>
         <SocialIcons>
-          <a href="https://www.linkedin.com/in/issa-abdulkadir-9658b543/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/issa24" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
         </SocialIcons>
