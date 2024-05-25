@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import HTMLProject from './pages/RProject';
 import NotebookProject from './pages/NotebookProject';
 import RegressionProject from './pages/RegressionProject';
+import SPLAnalysis from './pages/SPLAnalysis';
 import NotFound from './pages/NotFound';
 import Header from './components/Header';
 import './App.css';
@@ -25,6 +26,7 @@ const App = () => (
         <Route path="/html-project" element={<HTMLProject />} />
         <Route path="/notebook-project" element={<NotebookProject />} />
         <Route path="/regression-project" element={<RegressionProject />} />
+        <Route path="/spl-analysis" element={<SPLAnalysis />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

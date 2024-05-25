@@ -193,10 +193,10 @@ const Home = () => {
       <Footer>
         <p>Connect with me:</p>
         <SocialIcons>
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/issa-abdulkadir-9658b543/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/issa24" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
         </SocialIcons>

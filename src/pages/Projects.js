@@ -48,8 +48,8 @@ const Projects = () => {
       link: 'https://public.tableau.com/app/profile/issa.abdulkadir/viz/D211_16771227684550/TelecomInternationalCallsDashboard'
     },
     {
-      title: 'Exponential Data Analysis with R',
-      description: 'An analysis using R for exponential data.',
+      title: 'Exploratory Data Analysis with R',
+      description: 'An exploratory analysis of peer-to-peer personal loan service provider using R.',
       technologies: ['R', 'HTML'],
       link: '#/html-project'
     },
@@ -64,6 +64,12 @@ const Projects = () => {
       description: 'Predicting customer churn for a telecom company using regression analysis.',
       technologies: ['Python', 'Jupyter Notebook'],
       link: '#/regression-project'
+    },
+    {
+      title: 'Seattle Public Library Checkout Analysis',
+      description: 'A time series analysis of Seattle Public Library checkouts.',
+      technologies: ['HTML', 'Pandas', 'Plotly', 'Time Series Analysis'],
+      link: '#/spl-analysis'
     }
   ];
 
